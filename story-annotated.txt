@@ -1,0 +1,30 @@
+bot: Hello, welcome to Simiran’s Flowers.
+user: Hello, I’d like to order some flowers for my [girlfriend](relation).((order-flowers))
+bot: Okay. Do you have anything in particular in mind?
+user: She likes [roses](interest).
+bot: Is these any particular occasion?
+user: Yes, it’s her [birthday](birthday).
+bot: We can arrange a [rose](interest) bouquet to suit the occasion.
+bot: You can look at them in our catalogue here.
+# 5 iamges are shown with bouquet-type
+user: Oh, I like the [pink and white roses bouquet](bouquet-type)
+user: For how long these flowers remain fresh.((flower-perishability))
+bot: When would you like the flowers to be delivered?
+user: Her Birthday is [next week on Wednesday](delivery-date).
+bot Any spesific time for the delivery?
+user: You can deliver it in the [morning, around 10am](delivery-time).
+bot: What would you like to write on tag.
+bot: Happy birthday Dear Jane!
+bot: Nice, I just need delivery address and your contact number?
+bot: Address?
+user: Do you deliver in [Greater Kailash](location_delivery)?((q-confirm-delivery-location))
+bot: Yes we delive in [Greater Kailash](location_delivery)
+bot: Delivery address please?
+user: 120 Shelter Empire, M Block, Greater Kailash, New Delhi, Delhi 110048
+bot and your contact number
+user: My contact number is [9000000009](phone)
+bot: That will be Rs [450](cost)/- including delivery. You can using digital wallets.
+user: Sure I'll do that.((confirmation))
+bot: Nice, you’re all set for a rose bouquet to be delivered to your dear girlfriend next Wednesday at 10am.
+user: Thank you very much.((thanks))
+bot: Have a nice day! Goodbye.

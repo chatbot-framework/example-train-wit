@@ -1,0 +1,29 @@
+{
+  "name": "example-train-wit",
+  "version": "1.0.0",
+  "description": "Example: Usage of tamed-wit-nlu and chat2components ",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "chat2components": "git+https://github.com/chatbot-framework/chat2components",
+    "dotenv-safe": "^6.0.0",
+    "tamed-wit-nlu": "git+https://github.com/chatbot-framework/tamed-wit-nlu.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chatbot-framework/example-train-wit.git"
+  },
+  "keywords": [
+    "chatbot"
+  ],
+  "author": "nlu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chatbot-framework/example-train-wit/issues"
+  },
+  "homepage": "https://github.com/chatbot-framework/example-train-wit#readme"
+}
