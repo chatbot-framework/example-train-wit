@@ -5,9 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "bluebird": "^3.5.2",
-    "chat2components": "git+https://github.com/chatbot-framework/chat2components",
+    "chat2components": "github:chatbot-framework/chat2components",
     "dotenv-safe": "^6.0.0",
-    "tamed-wit-nlu": "git+https://github.com/chatbot-framework/tamed-wit-nlu.git"
+    "tamed-wit-nlu": "github:chatbot-framework/tamed-wit-nlu"
   },
   "devDependencies": {},
   "scripts": {

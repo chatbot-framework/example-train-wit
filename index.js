@@ -27,13 +27,16 @@ readFile(process.argv[2], 'utf8')
     apiVersion: process.env.WIT_API_VERSION
   })
 
-  return wit.train(components)
-    .then( res => {
-      console.log('trained: '+ res)
-    })
-    .then( () => {
-      test(wit)
-    })
+  return wit.train(components, {
+    batchSize: 3,
+    rateLimit: 2,
+    rateInterval: 'second' // number in miliseconds or time unit as in 'limiter'
+  }).then(res => {
+    console.log('trained: '+ res)
+  })
+  .then( () => {
+    test(wit)
+  })
 
 }).catch((e) => {
  console.error(e)
